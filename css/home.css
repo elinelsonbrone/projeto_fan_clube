@@ -1,0 +1,23 @@
+img {
+  max-width: 100%;
+  display: block;
+}
+.introducao-bg {
+  background: linear-gradient(90deg, #2d808f 100%, #2f8285 100%);
+}
+
+.introducao {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 40px;
+}
+.introducao h1 {
+  margin-top: 120px;
+  margin-bottom: 32px;
+  font-size: 48px;
+  line-height: 0.666;
+  color: #f0f0f0;
+}
+.introducao p {
+  margin-bottom: 20px;
+}
